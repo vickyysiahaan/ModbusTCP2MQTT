@@ -1,0 +1,8 @@
+{
+"1": {"Name":"SC200",
+	"IPAddress":"192.168.1.23",
+	"Port": 502,
+	"Timeout": 1,
+	"ByteOrder" : "Big Endian",
+	"AccessToken": "sc_200"}
+}

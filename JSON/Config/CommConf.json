@@ -1,0 +1,12 @@
+{
+	"Eth IP Addressing" : "static",
+	"Eth IP Address" : "192.168.2.100",
+	"Eth Netmask"	 : "255.255.255.0".
+	"Eth Gateway"	 : "192.168.2.1",
+	"Wifi IP Addressing" : "static",
+	"Wifi IP Address" : "192.168.8.200",
+	"Wifi Netmask"	 : "255.255.255.0".
+	"Wifi Gateway"	 : "192.168.2.1",
+	"Wifi SSID"		 : "HUAWEI-B310-A9EC",
+	"Wifi Password"	 : "T4A1ABH01ET"
+}

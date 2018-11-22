@@ -1,0 +1,6 @@
+{
+"PollingInterval": 60,
+"BrokerHOST" : "35.202.49.101",
+"MQTTPort" : 1883,
+"TopicList" : ["v1/devices/me/telemetry", "v1/devices/me/attributes"]
+}
