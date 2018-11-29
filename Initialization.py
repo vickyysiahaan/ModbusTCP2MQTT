@@ -25,7 +25,7 @@ DevNum = len(list(DevID.keys()))
 Dev_ID = list(DevID.values())
 #print(Dev_ID)
 
-#### Classify variables based on their register types ####
+#### Classify variables based on their mqtt topic ####
 VarsPerTopic = []
 for i in range(0,len(TopicList)):
     VarsPerTopic.append([])
