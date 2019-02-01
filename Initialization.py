@@ -25,7 +25,7 @@ DevNum = len(list(DevID.keys()))
 Dev_ID = list(DevID.values())
 #print(Dev_ID)
 
-#### Classify variables based on their mqtt topic ####
+#### Classify variables based on their register types ####
 VarsPerTopic = []
 for i in range(0,len(TopicList)):
     VarsPerTopic.append([])
@@ -34,6 +34,7 @@ for i in range(0,len(TopicList)):
 
 #Variables Identity
 AllVar = list()
+AllVarName = list()
 for i in range(1,DevNum+1):
     with open(FolderPath + '/JSON/Config/Device%dVariables.json' %i) as json_data:
         Var=json.load(json_data)
@@ -41,6 +42,7 @@ for i in range(1,DevNum+1):
         VarNum = len(VarID)
 
         _VarID = list()
+        AllVarName.append([])
         for j in range(0,VarNum):
             varid = list(VarID[j].values())
             _VarID.append(varid)
@@ -48,8 +50,10 @@ for i in range(1,DevNum+1):
             varName = varid[0]
             for topic in varTopic:
                 VarsPerTopic[topic-1][i-1].append(varName)
+            AllVarName[i-1].append(varName)
         AllVar.append(_VarID)
 #print(AllVar)
+#print(AllVarName)
 #print(VarsPerTopic)
         
 #### Classify variables based on their register type and data type ####
