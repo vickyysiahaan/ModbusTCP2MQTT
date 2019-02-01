@@ -14,7 +14,7 @@ What you need to know:
 2. This program also requires MySQL database to be installed.
    Name, username, and the password of the database can be set in MyDB.py
    
-3. SNMP devices and their OIDs that want to be read can be configured through JSON files in directory JSON/Config
+3. Modbus TCP devices and their registers that want to be read can be configured through JSON files in directory JSON/Config
 
    a. DevicesIdentity.json 
       contains information about devices identity.
