@@ -1,3 +1,7 @@
+# MODBUSTCP2MQTT
+
+This a python program to read data from modbus tcp devices and then publish them to mqtt topics. Configuration can be set by only editing JSON files.
+
 What you need to know:
 1. I assume you: 
 	- have a basic knowledge about Modbus TCP Communication (if you are a beginner, read this http://www.simplymodbus.ca/FAQ.htm)
@@ -69,4 +73,4 @@ What you need to know:
    
 
 
-# MODBUSTCP2MQTT
+
